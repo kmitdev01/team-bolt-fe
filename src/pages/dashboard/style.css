@@ -1,0 +1,68 @@
+.fullCard{
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 0px 30px;
+    margin-bottom: 40px;
+}
+.CardHeader{
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.CardHeader h4{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0px;
+    text-overflow: ellipsis;
+    width: 200px;
+    overflow: hidden;
+}
+.CardHeader button{
+    font-size: 20px;
+    padding: 5px 22px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    margin-top: 6px;
+    border: 1px solid #9a275e;
+    background-color: transparent;
+    margin-left: 30px;
+    color: #9a275e;
+}
+.fullCard .collapse.show{
+    border-top: 0.5px solid #D9D5D5;
+}
+.tableWrap{
+    table-layout: fixed;
+    width: 100%;
+}
+.td_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px 0px !important;
+}
+.td_btn button{
+    margin: 0px 5px;
+}
+.sub_delete_btn{
+    background-color: transparent;
+}
+.headerArrow{
+    margin-left: auto;
+}
+.headerArrow i{
+    font-size: 25px;
+    color: #9A275E;
+}
+.upload-image{
+    width: 163px;
+    height: 97px;
+    margin: -20px;
+}
